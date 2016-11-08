@@ -1,0 +1,29 @@
+.background    { background: black;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url(lava2.jpg);}
+.wall          { background: url(GrayBrick.png);}
+.spikes        { background: url(spikes.png);}
+
+.actor  { position: absolute;  }
+.coin   { background: url(coin2.gif);}
+.player { background: url(player.png) ;
+        background-repeat:no-repeat;}
+.prince {background: url(prince.png);
+    background-repeat:(no-repeat);} 
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+
+.lost .player {
+  background: url(player.png);
+}
+.won .player {
+  box-shadow: -6px -9px 10px yellow, 4px -7px 8px white;
+}
